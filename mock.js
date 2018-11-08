@@ -1,0 +1,1 @@
+console.log(mul(2)(3)(4));
