@@ -12,6 +12,10 @@
 
 //All given inputs are in lowercase letters a-z.
 
+//edge cases:
+//what happens when there's an empty string in the array?
+//what happens when the array is empty?
+
 var longestCommonPrefix = function(strs) {
   var commonPrefix = '';
   var progress = true;
