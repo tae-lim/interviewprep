@@ -13,7 +13,7 @@ LinkedList.prototype.addToTail = function (value) {
   else {
     var current = this.head;
     while (current.next) {
-      current = this.head.next;
+      current = this.current.next;
     }
     current.next = new Node(value);
     this.size++;
@@ -24,7 +24,7 @@ var Node = function(value) {
   this.value = value;
   this.next = null;
 }
-
+  
 LinkedList.prototype.removeHead = function () {
   this.head = this.head.next;
   this.size--;
